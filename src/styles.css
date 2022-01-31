@@ -13,13 +13,28 @@ body {
     font-size: 18px;
 }
 .ulHeader {
+    text-align: right;
+    list-style:none;
     background-color: #f8ff1e;
     padding:40px;
 }
+.alignleft {
+    float: left;
+    
+}
+.alignright {
+    float: right;
+    
+}
+.headerName {
+    color: black;
+}
+
 li {
+    display: inline-block;
     cursor: pointer;
     color: black;
-    padding:5px;
+    padding: 0 20px;
     transition: transform .2s;
 }
 li:hover {
@@ -79,6 +94,8 @@ li:hover {
     width: 100%;
     padding: 0 20px;
 }
+
+
 
 @media (min-width: 667px) {
     #homeIntro {
