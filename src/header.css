@@ -1,0 +1,44 @@
+.ulHeader {
+    text-align: right;
+    list-style:none;
+    background-color: #f8ff1e;
+    padding:40px;
+}
+.alignleft {
+    float: left;
+    
+}
+.alignright {
+    float: right;
+    padding-top: 10px;
+    
+}
+.headerName {
+    color: rgb(3, 56, 58);
+   font-size: 30px;
+}
+
+li {
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    padding: 0 20px;
+    transition: transform .2s;
+}
+li:hover {
+    background-color:white;
+    border-radius: 10px;
+    transform: scale(1.2);
+    transition:ease-in-out .5s;
+    
+    
+}
+.about:hover {
+    color:rgb(65, 133, 65);
+}
+.projects:hover {
+    color: rgb(179, 103, 205);;
+}
+.holla:hover{
+    color: rgb(3, 56, 58);
+}

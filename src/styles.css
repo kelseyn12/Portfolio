@@ -3,6 +3,9 @@
     font-family: 'Droid-Serif';
         
 }
+*::-webkit-scrollbar{
+    display: none;
+}
 
 body {
     line-height: 1.8;
@@ -12,89 +15,6 @@ body {
     position: relative;
     font-size: 18px;
 }
-.ulHeader {
-    text-align: right;
-    list-style:none;
-    background-color: #f8ff1e;
-    padding:40px;
-}
-.alignleft {
-    float: left;
-    
-}
-.alignright {
-    float: right;
-    
-}
-.headerName {
-    color: black;
-}
-
-li {
-    display: inline-block;
-    cursor: pointer;
-    color: black;
-    padding: 0 20px;
-    transition: transform .2s;
-}
-li:hover {
-    background-color:white;
-    border-radius: 10px;
-    transform: scale(1.2);
-    
-    
-}
-#homeIntro {
-    background:linear-gradient(to right bottom,rgb(166, 249, 255) 50%, rgb(235, 227, 237) 50%);
-        display: flex;
-        flex-flow: row wrap;
-        width: 100%;
-        max-width: none;
-        flex-direction: column;
-        justify-content: center;
-        position: relative;
-        z-index: 10;
-        padding: 80px 0 40px;
-    }
-
-.homeBuzzwords {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    line-height: 1;
-    position: relative;
-    margin-bottom: 80px;
-    text-shadow: -20px 10px 10px rgba(0,0,0,.3),0 20px 50px rgba(0,0,0,.3);
-    font-weight: 900;
-    letter-spacing: -2px;
-    font-size: 80px;
-    transform: matrix(1,0,0,1,0,0);
-    transform-origin: 50% 100%;
-}
-.buzzwords {
-    color: rgb(3, 56, 58);
-}
-.firstLine {
-    display: flex;
-    margin-left: 5px;
-    
-}
-.nature {
-    color: rgb(65, 133, 65);
-}
-.design {
-    color: rgb(179, 103, 205);
-    margin-left: 10px;
-}
-.laughter {
-    color: rgb(255, 254, 251);
-}
-#homeInner {
-    flex: 0 1 auto;
-    width: 100%;
-    padding: 0 20px;
-}
-
 
 
 @media (min-width: 667px) {
