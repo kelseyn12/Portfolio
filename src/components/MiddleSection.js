@@ -54,12 +54,15 @@ function MiddleSection () {
         
         </div> 
         </div>
+        
             
            
         </div>
-        <div id="about" style={{height: 600}}>
-            <h1>This is the about section</h1>
-            lalala
+        <div id="about" style={{height: 900}}>
+            <h1 className="h1_about">Hello, I'm Kelsey! </h1>
+            <h2 className="h2_about"> Designer & Developer.</h2>
+            <img src="https://i.ibb.co/SmNH9DH/000159590019.jpg" alt="Kelsey's face" className="kelseyFace" />
+            
         </div>
         <div id="projects" style={{height: 600}}>
             <h1>This is the projects section</h1>
@@ -69,6 +72,7 @@ function MiddleSection () {
             <h1>This is the contact section</h1>
             Ooo lala
         </div>
+
         </>
     )
 }

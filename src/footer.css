@@ -1,0 +1,24 @@
+.socialLinks {
+    float: left;
+    padding-left: 15px;
+    padding-right: 0;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.socialLinks_list {
+    list-style-type: none;
+    display: inline;
+ 
+}
+.socialLinks .socialLinks__item {
+    float: left;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.socialLinks .socialLinks__item:hover {
+    background-color: white;
+    transition:ease-in-out .5s;
+    border-radius: 10px;
+}

@@ -23,7 +23,7 @@
     letter-spacing: -2px;
     font-size: 80px;
     transform: matrix(1,0,0,1,0,0);
-    transform-origin: 50% 100%;     
+    transform-origin: 50% 100%;   
 }
 
 .firstLine:hover span  {
@@ -180,8 +180,22 @@
 .laughter {
     color: rgb(255, 254, 251);
 }
-#homeInner {
-    flex: 0 1 auto;
-    width: 100%;
-    padding: 0 20px;
+
+.kelseyFace {
+    height: 400px;
+    padding-top: 20px;
 }
+
+.h1_about {
+    color: white;
+    font-size: 60px;
+}
+.h2_about {
+    color: white;
+    font-size: 60px;
+    margin-top: -40px;
+}
+
+
+
+
