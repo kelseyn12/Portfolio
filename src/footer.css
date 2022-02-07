@@ -1,3 +1,8 @@
+.theFooter {
+    background-color: #f8ff1e;
+}
+
+
 .socialLinks {
     float: left;
     padding-left: 15px;
@@ -15,10 +20,4 @@
     float: left;
     margin-right: 5px;
     padding: 5px;
-}
-
-.socialLinks .socialLinks__item:hover {
-    background-color: white;
-    transition:ease-in-out .5s;
-    border-radius: 10px;
 }

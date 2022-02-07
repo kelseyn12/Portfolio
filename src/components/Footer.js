@@ -3,6 +3,7 @@ import "../footer.css";
 function Footer () {
     return (
         <div>
+            <div className="theFooter">
            <div className="socialLinks">
            <ul className="socialLinks_list">
                <li className="socialLinks__item socialLinks__item--instagram">
@@ -22,6 +23,7 @@ function Footer () {
                </li>
                </ul> 
         </div> 
+        </div>
         </div>
     )
 }

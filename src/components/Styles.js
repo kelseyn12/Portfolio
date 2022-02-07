@@ -10,5 +10,8 @@ height: 20px;
 font-size: 3rem;
 z-index: 1;
 cursor: pointer;
-color: white;
+color: rgb(3, 56, 58);
+&:hover {
+    color: rgb(166, 249, 255);
+}
 `;

@@ -1,6 +1,7 @@
 * {
     margin: 0 auto;
-    font-family: 'Droid-Serif';
+    font-family: 'Droid Serif', 'Georgia', 'serif';
+   
         
 }
 *::-webkit-scrollbar{
@@ -10,49 +11,87 @@
 body {
     line-height: 1.8;
     font-weight: 400;
-    color: #999;
-    background-color: #161616;
+    color: rgb(3, 56, 58);
+    background-color: linear-gradient(to right bottom,rgb(166, 249, 255) 50%, rgb(235, 227, 237) 50%);
     position: relative;
     font-size: 18px;
+    margin: 0;
+    padding: 0;
+    
+    
+
 }
 
 
 
-@media (max-width: 667px) {
-.ulHeader {
-    height: 100px;
-    padding-left: 80px;
-    padding-right: 20px;
-    padding-top: 10px;
-}
-}
 
-@media (max-width: 667px) {
+
+
+
+@media only screen and (max-width: 667px) {
 .alignLeft {
     line-height: 80px;
     display: inline-block;
-    font-size: 30px;
+    
 }
 }
 
-@media (max-width: 667px) {
+@media only screen and (max-width: 667px) {
     .nature {
-    font-size: 50px;
+    font-size: 50%;
 }
 }
-@media (max-width: 667px) {
+@media only screen and (max-width: 667px) {
     .design {
-    font-size: 50px;
+    font-size: 50%;
 }
 }
-@media (max-width: 667px) {
+@media only screen and (max-width: 667px) {
     .middleBuzzwords {
-    font-size: 50px;
+    font-size: 50%;
 }
 }
-@media (max-width: 667px) {
+@media only screen and (max-width: 667px) {
     .laughter {
-    font-size: 50px;
+    font-size: 50%;
 }
+}
+@media only screen and (min-width: 667px) {
+    .kelseysFace {
+    max-width: 100%;
+}
+}
+
+@media only screen and (min-width: 667px) {
+    .h1_about {
+    white-space: nowrap;
+    font-size: 50%;
+    
+}
+}
+
+@media only screen and (min-width: 667px) {
+    .h2_about {
+    font-size: 50%;
+    padding-bottom: 0px;
+    white-space: nowrap;
+    line-height: 0;
+    
+    
+}
+}
+
+@media only screen and (min-width: 667px) {
+    p {
+    font-size: 30%;
+    
+}
+}
+
+@media screen and (max-width: 1024px) {
+    .image-grid {
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 

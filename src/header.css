@@ -1,8 +1,18 @@
+* {
+    font-family: 'Droid-Serif', 'Georgia', 'serif';
+}
+
 .ulHeader {
     text-align: right;
     list-style:none;
     background-color: #f8ff1e;
     padding:40px;
+   
+}
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 .alignleft {
     float: left;

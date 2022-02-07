@@ -5,6 +5,8 @@ import '../header.css'
 
 function Header(props) {
     return (
+        <div className='sticky'>
+            
         <ul className='ulHeader'>
          <div className='alignleft'> <h2 className='headerName'>Kelsey Nocek</h2> </div>  
           <div className='alignright'> <li className='navlink'><Link activeClass='active' to="about" spy={true} smooth={true} className='about'>About</Link> </li>
@@ -13,6 +15,7 @@ function Header(props) {
             </div>
             <div style={{clear: "both"}}> </div>
         </ul>
+        </div>
     )
 }
 
