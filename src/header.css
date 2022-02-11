@@ -1,59 +1,53 @@
 * {
-    font-family: 'Droid-Serif', 'Georgia', 'serif';
+  font-family: "Droid-Serif", "Georgia", "serif";
 }
 
 .ulHeader {
-    text-align: right;
-    list-style:none;
-    background-color: #f8ff1e;
-    padding:40px;
-   
+  text-align: right;
+  list-style: none;
+  background-color: #f8ff1e;
+  padding: 40px;
 }
 .sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 .Scroll {
-    background-color: transparent;
-    padding:5px;
-    
+  background-color: transparent;
+  padding: 5px;
 }
 .alignleft {
-    float: left;
-    
+  float: left;
 }
 .alignright {
-    float: right;
-    padding-top: 10px;
-    
+  float: right;
+  padding-top: 10px;
 }
 .headerName {
-    color: rgb(3, 56, 58);
-   font-size: 30px;
+  color: rgb(3, 56, 58);
+  font-size: 30px;
 }
 
 .navlink {
-    display: inline-block;
-    cursor: pointer;
-    color: black;
-    padding: 0 20px;
-    transition: transform .2s;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  padding: 0 20px;
+  transition: transform 0.2s;
 }
 .navlink:hover {
-    background-color:white;
-    border-radius: 10px;
-    transform: scale(1.2);
-    transition:ease-in-out .5s;
-    
-    
+  background-color: white;
+  border-radius: 10px;
+  transform: scale(1.2);
+  transition: ease-in-out 0.5s;
 }
 .about:hover {
-    color:rgb(65, 133, 65);
+  color: rgb(65, 133, 65);
 }
 .projects:hover {
-    color: rgb(179, 103, 205);;
+  color: rgb(179, 103, 205);
 }
-.holla:hover{
-    color: rgb(3, 56, 58);
+.holla:hover {
+  color: rgb(3, 56, 58);
 }

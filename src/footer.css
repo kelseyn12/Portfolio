@@ -9,8 +9,7 @@
     float: left;
     padding-left: 15px;
     padding-right: 0;
-    padding-top: 50px;
-    margin-bottom: 40px;
+    padding-top: 55px;
     position: relative;
 }
 
@@ -28,4 +27,10 @@
   padding-right: 200px;
   padding-top: 90px;
  
+}
+
+@media only screen and (max-width: 667px) {
+.theFooter{
+    height: 200px;
+}
 }

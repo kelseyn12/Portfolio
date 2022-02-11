@@ -1,35 +1,23 @@
 * {
-    margin: 0 auto;
-    font-family: 'Droid Serif', 'Georgia', 'serif';
-   
-        
+  margin: 0 auto;
+  font-family: "Droid Serif", "Georgia", "serif";
 }
-*::-webkit-scrollbar{
-    display: none;
+*::-webkit-scrollbar {
+  display: none;
 }
 
 body {
-    width: 100vw;
-    line-height: 1.8;
-    font-weight: 400;
-    color: rgb(3, 56, 58);
-    background-color: linear-gradient(to right bottom,rgb(166, 249, 255) 50%, rgb(235, 227, 237) 50%);
-    position: relative;
-    font-size: 18px;
-    margin: 0;
-    padding: 0;
-    
-    
-
+  width: 100vw;
+  line-height: 1.8;
+  font-weight: 400;
+  color: rgb(3, 56, 58);
+  background-color: linear-gradient(
+    to right bottom,
+    rgb(166, 249, 255) 50%,
+    rgb(235, 227, 237) 50%
+  );
+  position: relative;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
