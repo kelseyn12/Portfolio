@@ -201,13 +201,13 @@
     background-color: rgb(166, 249, 255);
 }
 
-.h1_about {
+#h1_about {
     color: rgb(3, 56, 58);
     font-size: 60px;
     margin-bottom: 0;
     
 }
-.h2_about {
+#h2_about {
     color: rgb(3, 56, 58);
     font-size: 60px;
     line-height: .5;
@@ -215,13 +215,9 @@
   
 }
 
-.p_aboutme {
+#p_aboutme {
     color: rgb(14, 13, 13);
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-size: 1.5rem;
     text-align: center;
     line-height: 1.5;
@@ -232,22 +228,77 @@
     padding-top: 100px;
     padding-bottom: 80px;
 }
-.projects > img {
-    width: 400px;
-    padding: 0px 5px 0px 5px;
-}
-.image-1{
-    height: 100%;
-}
-.image-2{
-    height: 100%;
-}
-.image-3{
-    height: 100%;
-}
 .container {  
     display: flex;
 }
+.projects > img {
+    width: 400px;
+    height:300px;
+    padding: 0px 5px 0px 5px;
+}
+
+@media only screen and (max-width: 667px) {
+    .alignLeft {
+        line-height: 80px;
+        display: inline-block;    
+    }
+    .nature {
+        font-size: 50%;
+    }
+    .design {
+        font-size: 50%;
+    }
+    .middleBuzzwords {
+        font-size: 50%;
+    }
+    .laughter {
+        font-size: 50%;
+    }
+    #about{
+        height: 200px;
+    }
+    .kelseysFace {
+        max-width: 100%;
+        height: 40vh;
+    }
+    #h1_about {
+        white-space: nowrap;
+        font-size: 30px;
+        padding-top: 10px;
+        
+    }
+    #h2_about {
+        font-size: 20px;
+        padding-bottom: 20px;
+        white-space: nowrap;
+        line-height: 0;
+        
+        
+    }
+    #p_aboutme {
+        padding-top: 100px;
+        font-size: 25px;
+        padding-left: 5px;
+        padding-right: 5px;
+        
+    }
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .projects > img {
+        width: 100vw;
+        padding: 0px;
+        padding-bottom: 10px;
+    }
+    .projects-h1{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    }
+
+
 
 
 

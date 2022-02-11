@@ -14,6 +14,11 @@
     position: sticky;
     top: 0;
 }
+.Scroll {
+    background-color: transparent;
+    padding:5px;
+    
+}
 .alignleft {
     float: left;
     

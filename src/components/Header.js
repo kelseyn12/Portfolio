@@ -1,12 +1,23 @@
 import { Link } from 'react-scroll';
-
+import { useEffect } from 'react';
+import '../header.css';
 import '../styles.css';
-import '../header.css'
+
 
 function Header(props) {
+    
+  const handleScroll = () => {
+        if (window.scrollY > 20) {
+          document.querySelector(".ulHeader").className = "ulHeader Scroll";
+        } else {
+          document.querySelector(".ulHeader").className = "ulHeader";
+        }
+      };
+      useEffect(()=> {
+        window.addEventListener("scroll", handleScroll);
+    }); 
     return (
-        <div className='sticky'>
-            
+        <div className='sticky'>  
         <ul className='ulHeader'>
          <div className='alignleft'> <h2 className='headerName'>Kelsey Nocek</h2> </div>  
           <div className='alignright'> <li className='navlink'><Link activeClass='active' to="about" spy={true} smooth={true} className='about'>About</Link> </li>

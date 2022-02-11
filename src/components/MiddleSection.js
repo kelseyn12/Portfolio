@@ -1,10 +1,11 @@
-import "../styles.css";
 import "../MiddleSection.css"
+import "../styles.css";
+
 
 function MiddleSection () {
     return (
         <>
-        <div id="homeIntro" style={{height: 600}}>
+        <div id="homeIntro" style={{height:600}} >
             <div className="homeInner">
             <div className="homeBuzzwords">
         <div className="firstLine">
@@ -58,11 +59,11 @@ function MiddleSection () {
             
            
         </div>
-        <div id="about" style={{height: 1000}}>
-            <h1 className="h1_about">Hello, I'm Kelsey! </h1>
-            <h2 className="h2_about"> Designer & Developer.</h2>
+        <div id="about" style={{height:1000}} >
+            <h1 id="h1_about">Hello, I'm Kelsey! </h1>
+            <h2 id="h2_about"> Designer & Developer.</h2>
             <img src="https://i.ibb.co/DgjpY3G/000066010028.jpg" alt="Kelsey's face" className="kelseysFace" />
-            <p className="p_aboutme">I am a full stack engineer based out of Duluth, Minnesota.
+            <p id="p_aboutme">I am a full stack engineer based out of Duluth, Minnesota.
                 From playing tunes on a stage to lines of code on a web page,
                 creating brings me joy.
                 By combining logic and design, I make functional, 

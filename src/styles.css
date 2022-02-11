@@ -9,6 +9,7 @@
 }
 
 body {
+    width: 100vw;
     line-height: 1.8;
     font-weight: 400;
     color: rgb(3, 56, 58);
@@ -28,70 +29,7 @@ body {
 
 
 
-@media only screen and (max-width: 667px) {
-.alignLeft {
-    line-height: 80px;
-    display: inline-block;
-    
-}
-}
 
-@media only screen and (max-width: 667px) {
-    .nature {
-    font-size: 50%;
-}
-}
-@media only screen and (max-width: 667px) {
-    .design {
-    font-size: 50%;
-}
-}
-@media only screen and (max-width: 667px) {
-    .middleBuzzwords {
-    font-size: 50%;
-}
-}
-@media only screen and (max-width: 667px) {
-    .laughter {
-    font-size: 50%;
-}
-}
-@media only screen and (min-width: 667px) {
-    .kelseysFace {
-    max-width: 100%;
-}
-}
 
-@media only screen and (min-width: 667px) {
-    .h1_about {
-    white-space: nowrap;
-    font-size: 50%;
-    
-}
-}
 
-@media only screen and (min-width: 667px) {
-    .h2_about {
-    font-size: 50%;
-    padding-bottom: 0px;
-    white-space: nowrap;
-    line-height: 0;
-    
-    
-}
-}
-
-@media only screen and (min-width: 667px) {
-    p {
-    font-size: 30%;
-    
-}
-}
-
-@media screen and (max-width: 1024px) {
-    .image-grid {
-       display: grid;
-       grid-template-columns: 1fr 1fr 1fr;
-    }
-}
 
