@@ -1,5 +1,6 @@
 .theFooter {
-    height: 100px;
+    margin-bottom: 0;
+    height: 155px;
     background-color: #f8ff1e;
 }
 
@@ -8,6 +9,7 @@
     float: left;
     padding-left: 15px;
     padding-right: 0;
+    padding-top: 50px;
     margin-bottom: 40px;
     position: relative;
 }
@@ -21,4 +23,9 @@
     float: left;
     margin-right: 5px;
     padding: 5px;
+}
+.copyright {
+  padding-right: 200px;
+  padding-top: 90px;
+ 
 }
