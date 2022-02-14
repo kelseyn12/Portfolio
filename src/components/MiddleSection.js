@@ -1,3 +1,4 @@
+
 import "../MiddleSection.css";
 import "../styles.css";
 
@@ -73,28 +74,39 @@ function MiddleSection() {
         <h1 className="projects-h1">Projects</h1>
         <div className="container">
           <div className="projects">
+            <a href="https://kelseyn12.github.io/Surf-App-Project/" rel="noreferrer" target="_blank">
             <img
               src="https://i.ibb.co/TgWSStz/146481246-8b9ca05b-70ff-49d6-a894-45e378c92fad.png"
               alt="Surf application"
               className="image-1"
             />
+            </a>
+            <a href="https://hello-project.netlify.app/" rel="noreferrer" target="_blank">
             <img
               src="https://i.ibb.co/tZbSwfT/Screen-Shot-2022-02-06-at-6-37-13-PM.png"
               alt="Project idea application"
               className="image-2"
             />
+            </a>
+            
+            <a href="https://midwest-bikepacking.herokuapp.com/" rel="noreferrer" target="_blank">
             <img
               src="https://i.ibb.co/Q8hkJXw/149541560-63144e6f-70c0-4fbd-86f5-5cb94a62243b.png"
               alt="Bikepacker Board Website"
               className="image-3"
+              
             />
+            </a>
+            
           </div>
         </div>
         <h2 className="more"> More to come!</h2>
       </div>
       <div id="holla" style={{ height: 600 }}>
-        <h1>This is the contact section</h1>
-        Ooo lala
+        <h2 className="contact">Get in touch!</h2>
+        <p className="contact_p">Oh, and checkout my
+         <a className="resume" href="https://docs.google.com/document/d/10PjIl6TBP_3h2w1BrzfwpjyTflCpFXafTDuLycx-PZ8/export?format=pdf"> resume </a>
+         if you'd like!</p>
       </div>
     </>
   );

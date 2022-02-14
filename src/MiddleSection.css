@@ -228,15 +228,35 @@
   display: flex;
   white-space: nowrap;
 }
-.projects > img {
+.projects > a > img  {
   width: 30%;
   height: 100%;
   padding: 0px 5px 0px 5px;
+}
+.live {
+  width: 0%;
 }
 .more {
   padding-top: 50px;
   white-space: nowrap;
 }
+.contact {
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  
+}
+
+.resume {
+  text-decoration: none;
+  color: rgb(179, 103, 205);
+}
+.resume:hover{
+  cursor: pointer;
+}
+
+
 
 @media only screen and (max-width: 667px) {
   .alignLeft {
@@ -282,16 +302,19 @@
   #projects_page {
     height: 1000px !important;
   }
-  .projects {
+  .container .projects a {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
-  .projects > img {
-    width: 100vw;
+
+  .projects > a > img {
+    width: 70vw;
     height: auto;
     padding: 0px;
     padding-bottom: 5px;
   }
+ 
   .projects-h1 {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -300,5 +323,12 @@
   .more {
     padding-top: 0px;
     padding-bottom: 20px;
+  }
+  .contact {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    
   }
 }
