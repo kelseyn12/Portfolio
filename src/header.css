@@ -14,8 +14,13 @@
   top: 0;
 }
 .Scroll {
+  opacity: 0.5;
   background-color: transparent;
   padding: 5px;
+}
+.Scroll:hover {
+opacity: 1;
+background-color:#f8ff1e ;
 }
 .alignleft {
   float: left;
