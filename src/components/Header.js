@@ -26,7 +26,7 @@ function Header(props) {
           <li className="navlink">
             <Link
               activeClass="active"
-              to="about"
+              to="h1_about"
               spy={true}
               smooth={true}
               className="about"
@@ -35,7 +35,7 @@ function Header(props) {
             </Link>{" "}
           </li>
           <li className="navlink">
-            <Link to="projects" spy={true} smooth={true} className="projects_page">
+            <Link to="projects-h1" spy={true} smooth={true} className="projects_page">
               Projects
             </Link>
           </li>
