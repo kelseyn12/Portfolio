@@ -64,7 +64,7 @@ function MiddleSection() {
           className="kelseysFace"
         />
         <p id="p_aboutme">
-          I am a full stack engineer based out of Duluth, Minnesota. From
+          I am a full stack engineer based in Duluth, Minnesota. From
           playing tunes on a stage to lines of code on a web page, creating
           brings me joy. By combining logic and design, I make functional,
           eye-catching, and user-friendly digital products.
