@@ -59,7 +59,8 @@ function MiddleSection() {
         <h1 id="h1_about">Hello, I'm Kelsey! </h1>
         <h2 id="h2_about"> Designer & Developer.</h2>
         <img
-          src="https://i.ibb.co/DgjpY3G/000066010028.jpg"
+          src="https://i.ibb.co/ZLJ3718/000036570019.jpg"
+          // "https://i.ibb.co/DgjpY3G/000066010028.jpg"
           alt="Kelsey's face"
           className="kelseysFace"
         />
