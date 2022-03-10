@@ -227,15 +227,13 @@
   padding-bottom: 80px;
   font-size: 50px;
 }
-.container {
-  display: flex;
-  white-space: nowrap;
+
+
+.w-100 {
+  width: 50% !important;
+  height: 70vh;
 }
-.projects > a > img  {
-  width: 30%;
-  height: 100%;
-  padding: 0px 5px 0px 5px;
-}
+
 .live {
   width: 0%;
 }
@@ -306,18 +304,15 @@
   #projects_page {
     height: 1000px !important;
   }
-  .container .projects a {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
 
-  .projects > a > img {
+
+  .w-100 {
     width: 70vw;
     height: auto;
     padding: 0px;
     padding-bottom: 5px;
   }
+  
  
   .projects-h1 {
     padding-top: 20px;
