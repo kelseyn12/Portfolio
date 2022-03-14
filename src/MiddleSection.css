@@ -234,6 +234,23 @@
   height: 70vh;
 }
 
+.carousel-control-prev{
+  margin-left: 200px;
+}
+
+.carousel-control-next{
+  margin-right: 200px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url('https://apufpel.com.br/assets/img/seta_prim.png')
+}
+
+.carousel-control-next-icon {
+  background-image: url('https://apufpel.com.br/assets/img/seta_ult.png')
+}
+
+
 .live {
   width: 0%;
 }
@@ -302,7 +319,22 @@
     padding-top: 20px;
   }
   #projects_page {
-    height: 1000px !important;
+    height: 400px !important;
+  }
+  .carousel-control-prev{
+    margin-left: 0px;
+  }
+  
+  .carousel-control-next{
+    margin-right: 0px;
+  }
+  
+  .carousel-control-prev-icon {
+    background-image: url('https://apufpel.com.br/assets/img/seta_prim.png')
+  }
+  
+  .carousel-control-next-icon {
+    background-image: url('https://apufpel.com.br/assets/img/seta_ult.png')
   }
 
 

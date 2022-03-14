@@ -90,6 +90,11 @@ function MiddleSection() {
       <img class="d-block w-100 carousel-image" src="https://i.ibb.co/Zm4z2qY/Screen-Shot-2022-03-10-at-3-12-50-PM.png" alt="Third slide" />
     </a>
     </div>
+    <div class="carousel-item">
+    <a href="https://pokedex-kn-1.herokuapp.com/pokemon" rel="noreferrer" target="_blank">
+      <img class="d-block w-100 carousel-image" src="https://i.ibb.co/d2w6jHS/Screen-Shot-2022-03-14-at-6-25-45-PM.png" alt="Fourth slide" />
+    </a>
+    </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev" >
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
