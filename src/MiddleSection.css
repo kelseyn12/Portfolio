@@ -250,6 +250,16 @@
   background-image: url('https://apufpel.com.br/assets/img/seta_ult.png')
 }
 
+.carousel-control-prev:hover {
+  transform: scale(1.8);
+  transition: all ease-in-out;
+}
+
+.carousel-control-next:hover {
+  transform: scale(1.8);
+  transition: all ease-in-out;
+}
+
 
 .live {
   width: 0%;
@@ -330,11 +340,11 @@
   }
   
   .carousel-control-prev-icon {
-    background-image: url('https://apufpel.com.br/assets/img/seta_prim.png')
+    background-image: url('https://apufpel.com.br/assets/img/seta_prim.png');
   }
   
   .carousel-control-next-icon {
-    background-image: url('https://apufpel.com.br/assets/img/seta_ult.png')
+    background-image: url('https://apufpel.com.br/assets/img/seta_ult.png');
   }
 
 
