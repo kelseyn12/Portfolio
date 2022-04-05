@@ -81,8 +81,13 @@ function MiddleSection() {
       </a>
     </div>
     <div class="carousel-item">
+    <a href="https://facebook-clone-871a3.web.app/" rel="noreferrer" target="_blank">
+      <img class="d-block w-100 carousel-image" src="https://i.ibb.co/YDnFx5c/Screen-Shot-2022-04-05-at-11-14-32-AM.png" alt="Second slide" />
+    </a>
+    </div>
+    <div class="carousel-item">
     <a href="https://hello-project.netlify.app/" rel="noreferrer" target="_blank">
-      <img class="d-block w-100 carousel-image" src="https://i.ibb.co/tZbSwfT/Screen-Shot-2022-02-06-at-6-37-13-PM.png" alt="Second slide" />
+      <img class="d-block w-100 carousel-image" src="https://i.ibb.co/tZbSwfT/Screen-Shot-2022-02-06-at-6-37-13-PM.png" alt="Third slide" />
     </a>
     </div>
     <div class="carousel-item">
