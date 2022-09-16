@@ -76,15 +76,15 @@ function MiddleSection() {
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false" >
   <div class="carousel-inner">
     <div class="carousel-item active">
-    <a href="https://kelseyn12.github.io/Surf-App-Project/" rel="noreferrer" target="_blank">
-      <img class="d-block w-100 carousel-image" src="https://i.ibb.co/TgWSStz/146481246-8b9ca05b-70ff-49d6-a894-45e378c92fad.png" alt="First slide" />
+    <a href="https://www.duluthgearexchange.com/" rel="noreferrer" target="_blank">
+      <img class="d-block w-100 carousel-image" src="https://i.ibb.co/G5Qc87r/Screen-Shot-2022-09-16-at-8-09-00-AM.png" alt="First slide" />
       </a>
     </div>
-    {/* <div class="carousel-item">
-    <a href="https://facebook-clone-871a3.web.app/" rel="noreferrer" target="_blank">
-      <img class="d-block w-100 carousel-image" src="https://i.ibb.co/YDnFx5c/Screen-Shot-2022-04-05-at-11-14-32-AM.png" alt="Second slide" />
+    <div class="carousel-item">
+    <a href="https://kelseyn12.github.io/Surf-App-Project/" rel="noreferrer" target="_blank">
+      <img class="d-block w-100 carousel-image" src="https://i.ibb.co/TgWSStz/146481246-8b9ca05b-70ff-49d6-a894-45e378c92fad.png" alt="Second slide" />
     </a>
-    </div> */}
+    </div>
     <div class="carousel-item">
     <a href="https://hello-project.netlify.app/" rel="noreferrer" target="_blank">
       <img class="d-block w-100 carousel-image" src="https://i.ibb.co/tZbSwfT/Screen-Shot-2022-02-06-at-6-37-13-PM.png" alt="Third slide" />
