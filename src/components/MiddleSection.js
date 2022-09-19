@@ -77,7 +77,7 @@ function MiddleSection() {
   <div class="carousel-inner">
     <div class="carousel-item active">
     <a href="https://www.duluthgearexchange.com/" rel="noreferrer" target="_blank">
-      <img class="d-block w-100 carousel-image" src="https://i.ibb.co/G5Qc87r/Screen-Shot-2022-09-16-at-8-09-00-AM.png" alt="First slide" />
+      <img class="d-block w-100 carousel-image" src="https://i.ibb.co/pntzY62/Screen-Shot-2022-09-15-at-4-10-41-PM.png" alt="First slide" />
       </a>
     </div>
     <div class="carousel-item">
