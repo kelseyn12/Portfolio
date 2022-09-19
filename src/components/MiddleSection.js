@@ -77,32 +77,32 @@ function MiddleSection() {
   <div class="carousel-inner">
     <div class="carousel-item active">
     <a href="https://www.duluthgearexchange.com/" rel="noreferrer" target="_blank">
-      <img class="d-block w-100 carousel-image" src="https://i.ibb.co/pntzY62/Screen-Shot-2022-09-15-at-4-10-41-PM.png" alt="First slide" />
+      <img class="d-block w-100 carousel-image" src="https://i.ibb.co/pntzY62/Screen-Shot-2022-09-15-at-4-10-41-PM.png" alt="Duluth Gear Exchange" />
       </a>
     </div>
     <div class="carousel-item">
     <a href="https://kelseyn12.github.io/Surf-App-Project/" rel="noreferrer" target="_blank">
-      <img class="d-block w-100 carousel-image" src="https://i.ibb.co/TgWSStz/146481246-8b9ca05b-70ff-49d6-a894-45e378c92fad.png" alt="Second slide" />
+      <img class="d-block w-100 carousel-image" src="https://i.ibb.co/TgWSStz/146481246-8b9ca05b-70ff-49d6-a894-45e378c92fad.png" alt="Surf Stoney Point" />
     </a>
     </div>
     <div class="carousel-item">
     <a href="https://hello-project.netlify.app/" rel="noreferrer" target="_blank">
-      <img class="d-block w-100 carousel-image" src="https://i.ibb.co/tZbSwfT/Screen-Shot-2022-02-06-at-6-37-13-PM.png" alt="Third slide" />
+      <img class="d-block w-100 carousel-image" src="https://i.ibb.co/tZbSwfT/Screen-Shot-2022-02-06-at-6-37-13-PM.png" alt="Hello Project" />
     </a>
     </div>
     <div class="carousel-item">
     <a href="https://midwest-bikepacking.herokuapp.com/" rel="noreferrer" target="_blank">
-      <img class="d-block w-100 carousel-image" src="https://i.ibb.co/Zm4z2qY/Screen-Shot-2022-03-10-at-3-12-50-PM.png" alt="Third slide" />
+      <img class="d-block w-100 carousel-image" src="https://i.ibb.co/Zm4z2qY/Screen-Shot-2022-03-10-at-3-12-50-PM.png" alt="Bikepacking" />
     </a>
     </div>
     <div class="carousel-item">
     <a href="https://pokedex-kn-1.herokuapp.com/pokemon" rel="noreferrer" target="_blank">
-      <img class="d-block w-100 carousel-image" src="https://i.ibb.co/d2w6jHS/Screen-Shot-2022-03-14-at-6-25-45-PM.png" alt="Fourth slide" />
+      <img class="d-block w-100 carousel-image" src="https://i.ibb.co/d2w6jHS/Screen-Shot-2022-03-14-at-6-25-45-PM.png" alt="Pokedex" />
     </a>
     </div>
     <div class="carousel-item">
     <a href="https://musicology-kn.herokuapp.com/" rel="noreferrer" target="_blank">
-      <img class="d-block w-100 carousel-image" src="https://i.ibb.co/cgyMgZg/Screen-Shot-2022-03-21-at-5-05-50-PM.png" alt="Fifth slide" />
+      <img class="d-block w-100 carousel-image" src="https://i.ibb.co/cgyMgZg/Screen-Shot-2022-03-21-at-5-05-50-PM.png" alt="Musicology Blog" />
     </a>
     </div>
   </div>
