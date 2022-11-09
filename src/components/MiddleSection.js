@@ -121,7 +121,7 @@ function MiddleSection() {
       </div>
       <div id="holla" style={{ height: 600 }}>
         <h2 className="contact">Get in touch!</h2>
-        <p className="contact_p">Oh, and checkout my
+        <p className="contact_p">Checkout my
          <a className="resume" href="https://docs.google.com/document/d/10PjIl6TBP_3h2w1BrzfwpjyTflCpFXafTDuLycx-PZ8/export?format=pdf"> resume </a>
          if you'd like!</p>
       </div>
