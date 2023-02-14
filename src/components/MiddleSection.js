@@ -100,11 +100,6 @@ function MiddleSection() {
       <img class="d-block w-100 carousel-image" src="https://i.ibb.co/d2w6jHS/Screen-Shot-2022-03-14-at-6-25-45-PM.png" alt="Pokedex" />
     </a>
     </div>
-    <div class="carousel-item">
-    <a href="https://musicology-kn.herokuapp.com/" rel="noreferrer" target="_blank">
-      <img class="d-block w-100 carousel-image" src="https://i.ibb.co/cgyMgZg/Screen-Shot-2022-03-21-at-5-05-50-PM.png" alt="Musicology Blog" />
-    </a>
-    </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev" >
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
